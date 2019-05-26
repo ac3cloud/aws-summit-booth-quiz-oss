@@ -1,0 +1,376 @@
+{
+    "Question-cx5yzrdaafeidnzh5mowrj7spm-master": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "AES-256"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "BLOWFISH"
+                            },
+                            {
+                                "S": "AES"
+                            },
+                            {
+                                "S": "AES-256"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "0"
+                    },
+                    "pillar": {
+                        "S": "Security"
+                    },
+                    "question": {
+                        "S": "What is the server side encryption that S3 uses for objects?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "us-east-1"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "Any region"
+                            },
+                            {
+                                "S": "us-east-1"
+                            },
+                            {
+                                "S": "us-west-1"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "1"
+                    },
+                    "pillar": {
+                        "S": "Security"
+                    },
+                    "question": {
+                        "S": "What region do you need to create an ACM certificate in to make it accessible by CloudFront?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "Test out new AWS Services"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "Eat Lunch"
+                            },
+                            {
+                                "S": "Test out new AWS Services"
+                            },
+                            {
+                                "S": "Go home"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "10"
+                    },
+                    "pillar": {
+                        "S": "Organisational Transformation"
+                    },
+                    "question": {
+                        "S": "What should you let your engineers do a regular basis?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "As soon as MVP is built"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "At the end of the project"
+                            },
+                            {
+                                "S": "As soon as MVP is built"
+                            },
+                            {
+                                "S": "When the PoC Is built"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "11"
+                    },
+                    "pillar": {
+                        "S": "Organisational Transformation"
+                    },
+                    "question": {
+                        "S": "When should you start letting people use new services or systems you are building?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "Purchase Reserved Instances"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "Purchase Reserved Instances"
+                            },
+                            {
+                                "S": "Turn them off, no one will notice"
+                            },
+                            {
+                                "S": "Switch to Auto-Scaling"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "2"
+                    },
+                    "pillar": {
+                        "S": "Cost Optimisation"
+                    },
+                    "question": {
+                        "S": "What's the simplest way to reduce your spend for required long running instances?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "Tag Resources"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "Tag Resources"
+                            },
+                            {
+                                "S": "Invoice Builder"
+                            },
+                            {
+                                "S": "Cost Splitter"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "3"
+                    },
+                    "pillar": {
+                        "S": "Cost Optimisation"
+                    },
+                    "question": {
+                        "S": "What tool, service or construct can help you cross-charge to other business units from a single AWS Account?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "Cloudformation"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "Terraform"
+                            },
+                            {
+                                "S": "Cloudformation"
+                            },
+                            {
+                                "S": "Clouddefiner"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "4"
+                    },
+                    "pillar": {
+                        "S": "Operational Excellence"
+                    },
+                    "question": {
+                        "S": "What native tool should you use to define your AWS environment?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "All the time"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "Once per month"
+                            },
+                            {
+                                "S": "Once per week"
+                            },
+                            {
+                                "S": "All the time"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "5"
+                    },
+                    "pillar": {
+                        "S": "Operational Excellence"
+                    },
+                    "question": {
+                        "S": "How often should you deploy changes?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "Multi-AZ"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "Multi-Region"
+                            },
+                            {
+                                "S": "Multi-AZ"
+                            },
+                            {
+                                "S": "Super-HA"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "6"
+                    },
+                    "pillar": {
+                        "S": "Reliability"
+                    },
+                    "question": {
+                        "S": "When deploying a RDS what setting should you enable to ensure minimal disruption of service?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "11"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "11"
+                            },
+                            {
+                                "S": "4"
+                            },
+                            {
+                                "S": "7"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "7"
+                    },
+                    "pillar": {
+                        "S": "Reliability"
+                    },
+                    "question": {
+                        "S": "How many 9s of durability does S3 provide?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "S3"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "EBS"
+                            },
+                            {
+                                "S": "EFS"
+                            },
+                            {
+                                "S": "S3"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "8"
+                    },
+                    "pillar": {
+                        "S": "Performance Efficiency"
+                    },
+                    "question": {
+                        "S": "What's the best tool for storing files that need to be accessed by multiple systems over REST?"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "answer": {
+                        "S": "Data"
+                    },
+                    "answers": {
+                        "L": [
+                            {
+                                "S": "Your gut"
+                            },
+                            {
+                                "S": "Data"
+                            },
+                            {
+                                "S": "Some blog post"
+                            }
+                        ]
+                    },
+                    "id": {
+                        "S": "9"
+                    },
+                    "pillar": {
+                        "S": "Performance Efficiency"
+                    },
+                    "question": {
+                        "S": "What should you base architectural decisions on?"
+                    }
+                }
+            }
+        }
+    ]
+}
